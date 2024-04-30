@@ -1,0 +1,1 @@
+docker exec -it coursera_deep_learning bash

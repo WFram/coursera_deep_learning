@@ -1,0 +1,20 @@
+name: coursera_deep_learning
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - cuda=11.7.1
+  - h5py
+  - matplotlib
+  - matplotlib-base
+  - numpy
+  - pip
+  - python=3.8
+  - scipy
+  - pillow
+  - pip:
+    - tqdm
+    - natsort
+    - scikit-learn
+    - tensorflow
